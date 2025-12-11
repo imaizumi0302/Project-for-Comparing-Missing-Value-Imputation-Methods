@@ -64,7 +64,7 @@
     * 決定木 (Decision Tree Classifier)
     * サポートベクターマシン (SVC)
 * **ハイパーパラメータチューニング:**
-    * `GridSearchCV`を使用して、各モデルの最適なハイパーパラメータを探索しました。
+    * 決定木モデルは、`GridSearchCV`を使用して、最適なハイパーパラメータを探索しました。
 * **評価指標:**
     * Accuracy, Precision, Recall, F1-score, ROC-AUC を採用し、モデルの総合的な性能を評価しました。
 
