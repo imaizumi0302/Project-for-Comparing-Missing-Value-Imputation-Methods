@@ -36,6 +36,11 @@
 * 目的変数：`BAD`（1 = default / 0 = non-default）
 * 説明変数：数値＋カテゴリ（例：`LOAN`, `DEBTINC`, `REASON`, `JOB` など）
 
+## データセット
+本プロジェクトでは、学術・教育目的で一般に公開されている
+信用リスクデータセット（HMEQ）を使用しています。
+データの取り扱い方針に配慮し、元データは本リポジトリには含めていません。
+
 ---
 
 ## 4. 全体の流れ（Pipeline 概要）
@@ -260,9 +265,7 @@ SVMは「係数」や「重要度」で寄与を直接分解しにくいので�
 .
 ├── README.md
 ├── notebooks/
-│   └── final_project_portfolio.ipynb
-├── data/
-    └── hmeq.csv  
+   └── final_project_portfolio.ipynb 
 
 ```
 
