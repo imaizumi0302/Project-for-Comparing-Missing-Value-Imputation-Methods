@@ -264,8 +264,7 @@ SVMは「係数」や「重要度」で寄与を直接分解しにくいので�
 ```
 .
 ├── README.md
-├── notebooks/
-   └── final_project_portfolio.ipynb 
+├── create_model.ipynb 
 
 ```
 
